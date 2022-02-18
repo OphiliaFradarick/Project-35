@@ -5,9 +5,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
     
     <script src="p5.play.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
 
     <!--Add your Firsebase Config here below. -->
+    <script>
+    
     const firebaseConfig = {
       apiKey: "AIzaSyCZ2GUX4Zp6y5h-ebLukD6sJDdXsfGN7Pw",
       authDomain: "hot-air-balloon-33c3a.firebaseapp.com",
@@ -16,6 +19,9 @@
       messagingSenderId: "466652637381",
       appId: "1:466652637381:web:7daaf5d9e311f1ad7a28ac"
     };
+      
+      firebase.initializeApp(firebaseConfig)
+    </script>
 
 
     <link rel="stylesheet" type="text/css" href="style.css"/>
